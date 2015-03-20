@@ -10,7 +10,7 @@ public class Actividad {
 		System.out.print("Dime tu nombre y tu Ciudad: ");
 		String nom = teclado.nextLine();
 		
-		System.out.print("Tú nombre es: " + nom);
+		System.out.print("Tú nombre y tu Ciudad son: " + nom);
 		
 		teclado.close();
 	}
