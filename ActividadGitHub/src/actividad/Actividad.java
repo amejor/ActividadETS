@@ -7,10 +7,10 @@ public class Actividad {
 	public static void main(String[] args) {
 		
 		Scanner teclado = new Scanner (System.in);
-		System.out.print("Dime tu nombre: ");
+		System.out.print("Dime tu nombre y tu Ciudad: ");
 		String nom = teclado.nextLine();
 		
-		System.out.print("Tú nombre es: " + nom);
+		System.out.print("TÃº nombre es: " + nom);
 		
 		teclado.close();
 	}
